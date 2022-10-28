@@ -5,11 +5,166 @@ Author URI: https://smnarnold.com
 Description: Thème de base pour apprendre à faire un site Wordpress.
 Version: 1.0
 -------------------------------------------------------------- */
-/*
-C'est le moment d'effacer ce commentaire et d'écrire du vrai
-  ___  ____  ____ 
- / __)/ ___)/ ___)
-( (__ \___ \\___ \
- \___)(____/(____/
+
+
+/*footer*/
+section {
+  padding: 60px 0;
+ /* min-height: 100vh;*/
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contact-area {
+border-bottom: 1px solid #353C46;
+}
+
+.contact-content p {
+margin: 30px 0 60px;
+position: relative;
+color:white;
+}
+
+.contact-content p::after {
+background: #353C46;
+bottom: -30px;
+content: "";
+height: 1px;
+left: 50%;
+position: absolute;
+transform: translate(-50%);
+width: 80%;
+}
+
+.contact-content h6 {
+color: #8b9199;
+font-size: 15px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+
+.contact-content span {
+color: #353c47;
+margin: 0 10px;
+}
+
+.contact-social {
+margin-top: 30px;
+}
+
+.contact-social > ul {
+display: inline-flex;
+}
+
+.contact-social ul li a {
+border: 1px solid #8b9199;
+color: #white;
+display: inline-block;
+height: 40px;
+margin: 0 10px;
+padding-top: 7px;
+transition: all 0.4s ease 0s;
+width: 40px;
+}
+
+.contact-social ul li a:hover {
+border: 1px solid #FAB702;
+color: #white;
+}
+
+.contact-content img {
+max-width: 210px;
+}
+
+section, footer {
+background: #F29800;
+color: #868c96;
+}
+
+footer p {
+padding: 40px 0;
+text-align: center;
+color:white;
+font-size:30px;
+}
+
+footer img {
+width: 100%;
+}
+footer{position:absolute;width:100%;}
+
+.copyright {
+  margin-top: 70px;
+  padding-top: 40px;
+  color: #fff;
+  font-size: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  text-align: center;
+}
+
+.copyright a {
+  color: #fff;
+  transition: all 0.2s ease 0s;
+}
+
+.copyright a:hover {
+  color: rgb(2, 148, 116);;
+}
+
+/*fin footer*/
+/*header*/
+.navbar {
+  background-color: #FFF1C3;
  
- */
+}
+.logosavoureux{
+  margin:2rem;
+}
+.navbar .nav-link {
+  color: #26272b;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+.dropdown a:hover{
+  color: rgb(2, 148, 116);
+}
+/* Change navbar styling on scroll */
+
+.navbar .active .logosupra{
+  background-image: url("SUPRA\ SIGN\ -\ LOGO.png");
+}
+.navbar.active .nav-link {
+  color: #26272b;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #26272b;
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+  .navbar {
+    background: #FFF1C3;
+  }
+
+  .navbar .navbar-brand, .navbar .nav-link {
+    color: #555;
+  }
+}
+/*fin header*/
