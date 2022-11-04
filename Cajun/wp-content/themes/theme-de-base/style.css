@@ -533,6 +533,44 @@ h3 {
 
 
 
+.bloc-404{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  height:100%;
+  
+}
+
+.texte-404 {
+  font-size:40px;
+  font-familly: Cyndirella;
+  text-align:center;
+  margin-top: 0%;
+  font-family: Londrina;
+}
+
+.logo-404{
+  margin-top: 15%;
+  width:30%;
+}
+
+.quile{
+  position:absolute;
+  width:25vw;
+}
+
+.Rouge{
+  left:5%;
+}
+
+.Bleu{
+ right:5%;
+}
+
+
+
 
 
 

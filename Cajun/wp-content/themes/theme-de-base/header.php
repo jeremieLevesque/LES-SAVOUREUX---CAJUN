@@ -48,7 +48,7 @@
 	<nav class="navbar navbar-expand-lg fixed-top py-3">
       
       <div class="container"><a href="index.html" class="logosavoureux">
-          <img src="http://localhost/wordpress/wp-content/uploads/2022/11/logo_navbar.png">
+          <img src="http://localhost:81/Cajun/wp-content/uploads/2022/11/logo_navbar.png">
         </a>
         <div class="buttonlogo">
           <button  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>

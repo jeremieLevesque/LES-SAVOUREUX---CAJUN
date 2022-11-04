@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-lg-6 offset-lg-3">
                         <div class="contact-content text-center">
-                            <a href="#"><img src="http://localhost/wordpress/wp-content/uploads/2022/11/LOGO-LES-SAVOUREUX.png" alt="logo"></a>
+                            <a href="#"><img src="http://localhost:81/Cajun/wp-content/uploads/2022/11/LOGO-LES-SAVOUREUX.png" alt="logo"></a>
                             <p href="https://goo.gl/maps/ag99MjikfQzcjE4dA">55 Rue Claude-Audy, Saint-Jérôme<br>info@lessavoureux.com<br>
       450-304-0977                    </p>
       
