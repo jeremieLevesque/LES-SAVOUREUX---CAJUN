@@ -264,3 +264,23 @@ $BootstrapBasicAutoRegisterWidgets->registerAll();
 unset($BootstrapBasicAutoRegisterWidgets);
 require get_template_directory() . '/inc/template-widgets-hook.php';
 
+
+
+function bootstrapBasicGetMainColumnSize() 
+	{
+		if (is_active_sidebar('sidebar-left') && is_active_sidebar('sidebar-right')) {
+			// if both sidebar actived.
+			$main_column_size = 12;
+		} elseif (
+				(is_active_sidebar('sidebar-left') && !is_active_sidebar('sidebar-right')) || 
+				(is_active_sidebar('sidebar-right') && !is_active_sidebar('sidebar-left'))
+		) {
+			// if only one sidebar actived.
+			$main_column_size = 12;
+		} else {
+			// if no sidebar actived.
+			$main_column_size = 12;
+		}
+
+		return $main_column_size;
+	}// bootstrapBasicGetMainColumnSize
