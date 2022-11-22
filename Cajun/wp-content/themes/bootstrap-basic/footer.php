@@ -23,8 +23,8 @@
                     
                         <div class="contact-social">
                             <ul>
-                                <li><a class="hover-target" href=""><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a class="hover-target" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a class="hover-target" href="https://www.facebook.com/LesSavoureux/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a class="hover-target" href="https://www.instagram.com/lessavoureuxassaisonnements/"><i class="fab fa-instagram"></i></a></li>
                                 <li><a class="hover-target" href=""><i class="fab fa-github"></i></a></li>
                                 <li><a class="hover-target" href=""><i class="fab fa-behance"></i></a></li>
                                 <li><a class="hover-target" href=""><i class="fab fa-pinterest-p"></i></a></li>
