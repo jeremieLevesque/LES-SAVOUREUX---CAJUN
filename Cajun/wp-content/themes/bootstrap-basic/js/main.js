@@ -13,3 +13,5 @@ var Swipes = new Swiper('.swiper-container', {
         el: '.swiper-pagination',
     },
 });
+
+
