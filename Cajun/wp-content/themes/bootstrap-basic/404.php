@@ -11,10 +11,10 @@
 								   
 <div class="bloc-404">
 
-<img src="https://cdn.shopify.com/s/files/1/0090/8063/5451/files/Sauce_piquante_Les_Savoureux_Piri-Piri_Sriracha_Louisianaise_Hot_Sauce_1024x1024.jpg?v=1668101165" class="logo-404">  
+<img src="http://localhost:81/Cajun/wp-content/uploads/2022/11/bouteilles_sauce_trio_face-1.png" class="logo-404">  
 <div class="rotation">
-<img src="https://img2.freepng.fr/20180315/zxe/kisspng-serrano-pepper-birds-eye-chili-chili-pepper-hot-sa-pepper-png-transparent-images-5aaa4266140e54.5113058715211075580822.jpg" class="quile Bleu">
- <img src="https://img2.freepng.fr/20180315/zxe/kisspng-serrano-pepper-birds-eye-chili-chili-pepper-hot-sa-pepper-png-transparent-images-5aaa4266140e54.5113058715211075580822.jpg" class="quile Rouge">
+<img src="http://localhost:81/Cajun/wp-content/uploads/2022/11/MicrosoftTeams-image-9.png" class="quile Bleu">
+ <img src="http://localhost:81/Cajun/wp-content/uploads/2022/11/MicrosoftTeams-image-9.png" class="quile Rouge">
 </div>  
 <p class="texte-404">ERREUR 404</p>
  
