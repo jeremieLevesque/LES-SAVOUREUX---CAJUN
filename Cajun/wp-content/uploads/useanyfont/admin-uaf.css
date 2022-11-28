@@ -1,0 +1,12 @@
+				@font-face {
+					font-family: 'zulpiya';
+					src: url('/Cajun/wp-content/uploads/useanyfont/1042Zulpiya.woff2') format('woff2'),
+						url('/Cajun/wp-content/uploads/useanyfont/1042Zulpiya.woff') format('woff');
+						  font-display: auto;
+				}
+
+				.zulpiya{font-family: 'zulpiya' !important;}
+
+				.et_gf_zulpiya{background:none !important;font-family:zulpiya;text-indent:0 !important;font-size:25px;}
+
+		
