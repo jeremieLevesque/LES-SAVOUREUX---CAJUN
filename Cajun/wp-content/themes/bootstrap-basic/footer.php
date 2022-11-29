@@ -11,7 +11,7 @@
 			
 			<footer id="site-footer" role="contentinfo" style="background-color:">
           
-
+            <section class="contact-area" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 offset-lg-3">
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
- 
+        </section>
     <p>Copyright &copy; 2022  Les Savoureux - CAJUN.</p>
        
     </footer>

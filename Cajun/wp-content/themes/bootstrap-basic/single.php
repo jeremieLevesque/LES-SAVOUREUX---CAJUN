@@ -7,9 +7,7 @@
 
 get_header();
 
-fetch("/wp-json/wp/v2/posts/<?php the_ID(); ?>")
-  .then(response => response.json())
-  .then(data => console.log(data));
+
 /**
  * determine main column size from actived sidebar
  */
