@@ -1,0 +1,41 @@
+
+/*dropdown*/
+.dropdown li{
+  display: inline block;
+}
+.drpmenu{
+  display: none;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+}
+.produitmenu{
+  max-width: 420px;
+}
+.servicesmenu{
+  max-width: 200px;
+}
+
+.drpbtn{
+  color:white;
+}
+.drpmenu a{
+  display: block;
+  color: black;
+  padding: 20px 20px;
+  width:100vw;
+}
+.dropdown:hover .drpmenu{
+  display: block;
+}
+
+p{
+  color:black;
+  font-family: 'Oswald', sans-serif;
+
+}
+article{
+  border-radius:10px;
+background-color: white;
+}
+

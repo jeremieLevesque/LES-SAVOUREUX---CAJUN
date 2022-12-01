@@ -1,0 +1,36 @@
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  padding: 50px;
+}
+
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid > article img {
+  max-width: 100%;
+}
+.grid .btn{
+ background-color: rgb(2, 148, 116);
+}
+.grid .btn:hover{
+  background-color: rgb(0, 23, 20);
+ }
+.grid .text {
+  padding: 20px;
+}
+.grid h3{
+  font-family: 'Oswald', sans-serif;
+}
+.grid h5{
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+}
+.grid a{
+  font-family: 'Mont', sans-serif;
+}

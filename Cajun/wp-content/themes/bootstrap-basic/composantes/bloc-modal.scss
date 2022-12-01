@@ -1,0 +1,31 @@
+.texte-lorem-modal {
+  font-family: Corbel;
+  padding-top: 20px;
+}
+
+.modal-header {
+  background-color: #4E2200 !important;
+  color: white;
+}
+
+.modal-body {
+  background-color: #FFE07B !important;
+}
+
+.modal-footer {
+  background-color: #4E2200 !important;
+}
+
+.btn-secondary {
+  background-color: #D04C00 !important;
+  font-family: Zulpiya;
+  font-size: 25px !important;
+  border-radius: 25px !important;
+  border: none !important;
+}
+
+.btn-secondary:hover {
+  padding-right: 20px;
+  padding-left: 20px;
+  transition: 0.3s;
+}
