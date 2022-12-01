@@ -41,9 +41,11 @@
     
 			
 		</div><!--.container page-container-->
-		
-		
+		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
 		<!--wordpress footer-->
 		<?php wp_footer(); ?> 
+       
 	</body>
 </html>

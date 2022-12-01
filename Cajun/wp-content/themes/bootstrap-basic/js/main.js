@@ -3,6 +3,23 @@
  * This file is for who want to make this theme as a new parent theme and you are ready to code your js here.
  */
 
+ app = Vue.createApp({});
+
+ app.component('counter', {
+   props: ['msg'],
+   data() {
+     return {
+       nbr: 0
+     }
+   },
+   template: `
+     <button @click="nbr++">
+       {{ msg }} {{ nbr }}x
+     </button>`
+ })
+ 
+ app.mount('#app');
+
 var Swipes = new Swiper('.swiper-container', {
     loop: true,
     navigation: {
