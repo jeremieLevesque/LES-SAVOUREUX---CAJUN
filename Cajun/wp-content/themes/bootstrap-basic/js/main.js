@@ -16,7 +16,7 @@
      <button @click="nbr++">
        {{ msg }} {{ nbr }}x
      </button>`
- })
+ });
  
  app.mount('#app');
 
@@ -85,3 +85,42 @@ const btn = document.querySelector('.buttonlogo');
             { rotationZ:"270%", duration:2 })
 });
 
+const app = Vue.createApp({});
+
+app.component('hero', {
+  props: ['src', 'titre'],
+  data() {
+    return {
+      nbr: 0
+    }
+  },
+  template: `
+  <div class="bloc-hero">
+<p class="titre-hero">{{ titre }}</p>
+<img src="{{ src }}" alt="" class="hero">
+</div>
+  `
+});
+
+
+app.component('description', {
+      props: ['txt1', 'txt2', 'txt3', 't1' , 't2']
+      ,
+      data() {
+        return {
+          nbr: 0
+        }
+      },
+      template: `
+      <p class="{{ txt1 }}"></p>
+      <p class="{{ t1 }}"></p>
+      <p class="{{ txt2 }}"></p>
+      
+      <div class="bloc-preparation">
+      <p class="{{ txt2 }}"></p>
+      <p class="{{ txt3 }}"></p>
+      `
+    });
+    
+
+app.mount('#app');
