@@ -84,6 +84,7 @@ const btn = document.querySelector('.buttonlogo');
       .fromTo('.buttonlogo' , {rotationZ:"0%"},
             { rotationZ:"270%", duration:2 })
 });
+/*
 
 const app = Vue.createApp({});
 
@@ -123,4 +124,4 @@ app.component('description', {
     });
     
 
-app.mount('#app');
+app.mount('#app');*/
