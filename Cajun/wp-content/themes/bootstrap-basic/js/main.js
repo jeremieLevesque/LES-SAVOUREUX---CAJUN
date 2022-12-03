@@ -5,20 +5,7 @@
 
  app = Vue.createApp({});
 
- app.component('counter', {
-   props: ['msg'],
-   data() {
-     return {
-       nbr: 0
-     }
-   },
-   template: `
-     <button @click="nbr++">
-       {{ msg }} {{ nbr }}x
-     </button>`
- });
  
- app.mount('#app');
 
 var Swipes = new Swiper('.swiper-container', {
     loop: true,
@@ -77,19 +64,10 @@ gsap.timeline()
       .fromTo('.Rouge' , {rotationZ:"-5%" ,y: '-50px'},
             { rotationZ:"0" , y: '0', duration:2 } )    
 
-const btn = document.querySelector('.buttonlogo');
 
-  btn.addEventListener("click", function() {
-  gsap.timeline()
-      .fromTo('.buttonlogo' , {rotationZ:"0%"},
-            { rotationZ:"270%", duration:2 })
-});
-
-
-const app = Vue.createApp({});
 
 app.component('hero', {
-  props: ['src', 'titre'],
+  props: ['srch', 'titre'],
   data() {
     return {
       nbr: 0
@@ -98,7 +76,7 @@ app.component('hero', {
   template: `
   <div class="bloc-hero">
 <p class="titre-hero">{{ titre }}</p>
-<img src="{{ src }}" alt="" class="hero">
+<img :src= "srch" alt="" class="hero">
 </div>
   `
 });
