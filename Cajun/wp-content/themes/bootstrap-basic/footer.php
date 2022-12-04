@@ -8,7 +8,7 @@
 
 			</div><!--.site-content-->
 
-			<?php echo do_shortcode('[logocarousel id="771"]'); ?>
+            <?php echo do_shortcode('[logocarousel id="817"]'); ?>
 			<footer id="site-footer" role="contentinfo" style="background-color:">
           
             <section class="contact-area" id="contact">
