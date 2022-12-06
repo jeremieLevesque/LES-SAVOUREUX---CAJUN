@@ -17,6 +17,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 					<main id="main" class="site-main" role="main">
 						<?php if (have_posts()) {$membre = new WP_Query('post_type=membre'); ?> 
 						<?php 
+						
 						// start the loop
 						while ($membre->have_posts()) {
 							$membre->the_post();
