@@ -15,6 +15,8 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 <?php get_sidebar('left'); ?> 
 				<div class="col-md-<?php echo $main_column_size; ?> content-area" id="main-column">
 					<main id="main" class="site-main" role="main">
+							<div class='main-equipe'>
+								<div class='equipe-wrapper'>
 						<?php if (have_posts()) {$membre = new WP_Query('post_type=membre'); ?> 
 						<?php 
 						
@@ -35,6 +37,8 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 						<?php } else { ?> 
 						<?php get_template_part('no-results', 'index'); ?>
 						<?php } // endif; ?> 
+						</div>
+						</div>
 					</main>
 				</div>
 <?php get_sidebar('right'); ?> 
