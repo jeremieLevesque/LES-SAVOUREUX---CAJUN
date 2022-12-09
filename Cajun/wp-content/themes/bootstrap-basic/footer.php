@@ -26,7 +26,7 @@
                             <ul>
                                 <li><a class="hover-target" href="https://www.facebook.com/LesSavoureux/"><img src="http://localhost:81/Cajun/wp-content/uploads/2022/12/MicrosoftTeams-image-1.png" class="foot-img"></i></a></li>
                                 <li><a class="hover-target" href="https://www.instagram.com/lessavoureuxassaisonnements/"><img src="http://localhost:81/Cajun/wp-content/uploads/2022/12/MicrosoftTeams-image-2-1.png" class="foot-img"></i></a></li>
-                                <li><a class="hover-target" href=""><img src="http://localhost:81/Cajun/wp-content/uploads/2022/11/cropped-favicon-e1670034851258.png" class="foot-img"></i></a></li>
+                                <li><a class="hover-target" href="https://lessavoureux.com/"><img src="http://localhost:81/Cajun/wp-content/uploads/2022/11/cropped-favicon-e1670034851258.png" class="foot-img"></i></a></li>
                                 
                             </ul>
                         </div>
