@@ -7,7 +7,7 @@
 
  
 
-var Swipes = new Swiper('.swiper-container', {
+var Swipes = new Swiper('.hero .swiper-container', {
     loop: true,
     navigation: {
         nextEl: '.swiper-button-next',
@@ -75,8 +75,8 @@ app.component('hero', {
   },
   template: `
   <div class="bloc-hero">
-<p class="titre-hero">{{ titre }}</p>
-<img :src= "srch" alt="" class="hero">
+      <p class="titre-hero">{{ titre }}</p>
+      <img :src= "srch" alt="" class="hero">
 </div>
   `
 });
@@ -91,13 +91,7 @@ app.component('description', {
         }
       },
       template: `
-      <p class="{{ txt1 }}"></p>
-      <p class="{{ t1 }}"></p>
-      <p class="{{ txt2 }}"></p>
-      
-      <div class="bloc-preparation">
-      <p class="{{ txt2 }}"></p>
-      <p class="{{ txt3 }}"></p>
+      <p class="texte1">{{ txt1 }}</p>
       `
     });
     
