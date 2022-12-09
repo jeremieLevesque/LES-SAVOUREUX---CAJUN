@@ -67,7 +67,7 @@ gsap.timeline()
 
 
 app.component('hero', {
-  props: ['srch', 'titre'],
+  props: ['srch', 'titre', 'date'],
   data() {
     return {
       nbr: 0
@@ -76,10 +76,12 @@ app.component('hero', {
   template: `
   <div class="bloc-hero">
       <p class="titre-hero">{{ titre }}</p>
+      <p class="titre-date">{{ titre1 }}</p>
       <img :src= "srch" alt="" class="hero">
 </div>
   `
 });
+
 
 
 app.component('description', {
