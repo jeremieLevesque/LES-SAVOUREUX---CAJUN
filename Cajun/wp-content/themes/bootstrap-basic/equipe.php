@@ -16,7 +16,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 
 				<div class="col-md-<?php echo $main_column_size; ?> content-area" id="main-column">
 					<main id="main" class="site-main" role="main">
-					<article class='ek'>
+					<article>
 					<div id="app">
       					<hero srch="http://localhost:81/Cajun/wp-content/uploads/2022/11/personne_martine_charbonneau_pots_epices.jpg" titre="ÉQUIPE">
       					</hero>

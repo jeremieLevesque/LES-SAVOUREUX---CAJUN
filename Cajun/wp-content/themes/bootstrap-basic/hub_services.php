@@ -1,7 +1,7 @@
 <?php
 /**
  * The main template file
- * 
+ * Template Name: hub-services
  * @package bootstrap-basic
  */
 
