@@ -26,33 +26,6 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 					<div class='main-equipe'>
 								<div class='equipe-wrapper'>
 							
-					<?php if (have_posts()) {$carte_nouvelle = new WP_Query('post_type=carte_nouvelle'); ?> 
-						<?php 
-						// start the loop
-						while ($carte_nouvelle->have_posts()) {
-							$carte_nouvelle->the_post();
-							?><pre><?php print_r(get_the_category()); ?></pre><?php
-							
-							/* 
-							* Include the Post-Format-specific template for the content.
-							* If you want to override this in a child theme, then include a file
-							* called content-___.php (where ___ is the Post Format name) and that will be used instead.
-							*/
-							get_template_part('content', get_post_format());
-						}// end while
-						
-						bootstrapBasicPagination();
-						?> 
-						<?php } else { ?> 
-						<?php get_template_part('no-results', 'index'); ?>
-						
-						<?php } // endif; ?> 
-						<button class="bouton-suite">PLUS DE NOUVELLES</button>
-						</div>
-					</div>
-						</article>
-					</main>
-				</div>
 <?php get_sidebar('right'); ?> 
 <?php get_footer(); ?> 
 

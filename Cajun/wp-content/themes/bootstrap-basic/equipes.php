@@ -23,7 +23,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 						// start the loop
 						while ($membre->have_posts()) {
 							$membre->the_post();
-							
+							?><pre><?php print_r(get_the_category()); ?></pre><?php
 							/* 
 							* Include the Post-Format-specific template for the content.
 							* If you want to override this in a child theme, then include a file
