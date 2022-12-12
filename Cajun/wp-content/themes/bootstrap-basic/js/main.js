@@ -76,11 +76,23 @@ app.component('hero', {
   template: `
   <div class="bloc-hero">
       <p class="titre-hero">{{ titre }}</p>
-      <p class="titre-date">{{ titre1 }}</p>
+      <p class="titre-date">{{ date }}</p>
       <img :src= "srch" alt="" class="hero">
 </div>
   `
 });
+
+app.component('recette', {
+      props: ['txt'],
+      data() {
+        return {
+          nbr: 0
+        }
+      },
+      template: `
+      {{ txt }}
+      `
+    });
 
 
 
