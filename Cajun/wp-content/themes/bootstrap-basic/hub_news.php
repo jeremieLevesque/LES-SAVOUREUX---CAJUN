@@ -18,14 +18,21 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 					<main id="main" class="site-main" role="main">
 					<article>
 					<div id="app">
-      					<hero srch="http://localhost:81/Cajun/wp-content/uploads/2022/11/personne_martine_charbonneau_pots_epices.jpg" titre="NOUVELLES">
+      					<hero srch="http://localhost:81/Cajun/wp-content/uploads/2022/11/personne_martine_charbonneau_pots_epices.jpg" titre="RECETTES">
       					</hero>
 					<description txt1="On te prépare ça le jour même, et ça part le lendemain (sauf si tu commandes le vendredi à 17 h. Là, ça partira peut-être le lundi, surtout si l’envie d’un verre de vin est très pressante!) Ensuite, ça prend environ 1 à 3 jours ouvrables à nos transporteurs pour te mettre ça dans ta boite aux lettres!">
      				</description>
 					</div>
 					<div class='main-equipe'>
 								<div class='equipe-wrapper'>
-							
+								
+<ul class="cards">
+                                        <li class="cards_item">
+                                            <card srch="<?php the_field('image'); ?>" t1="<?php the_field('titre'); ?>" res="<?php the_field('resume'); ?>"></card>
+</li>
+</ul>
+
+
 					<?php if (have_posts()) {$carte_nouvelle = new WP_Query('post_type=carte_nouvelle'); ?> 
 						<?php 
 						// start the loop

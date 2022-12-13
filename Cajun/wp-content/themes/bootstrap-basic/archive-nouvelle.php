@@ -18,19 +18,10 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 					<main id="main" class="site-main" role="main">
 					<article>
 					<div id="app">
-					
-      					<hero srch="<?php the_field('image'); ?>" titre="<?php the_field('titre'); ?>" date="<?php the_field('date'); ?>">
-						  <div class="titre-heroV" <?php echo get_the_category('vegan')[2]; ?>>
-						  caca
-      					</div>
-					</hero>
-						  
-					
-							<div class='main-equipe'>
-								<div class='equipe-wrapper'>
+      					<hero srch="<?php the_field('image'); ?>" titre="<?php the_field('titre'); ?>" titre1="<?php the_field('date'); ?>">
+      					</hero>
 			
-						</div>
-						</div>
+					
 						<recette txt="<?php the_field('description'); ?>"></recette>
 					</div>
 						

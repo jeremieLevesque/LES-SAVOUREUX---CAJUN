@@ -77,10 +77,46 @@ app.component('hero', {
   <div class="bloc-hero">
       <p class="titre-hero">{{ titre }}</p>
       <p class="titre-date">{{ date }}</p>
-      <img :src= "srch" alt="" class="hero">
+      <img :src="srch" alt="" class="hero imagerecette">
 </div>
   `
 });
+
+app.component('carte', {
+
+      props: ['img','t1','res', 'lien' ],
+
+      data() {
+
+        return {
+
+          nbr: 0
+
+        }
+
+      },
+
+      template: `
+
+      <div class="card">
+
+      <div class="card_image"><img :src= "img" ></div>
+
+      <div class="card_content">
+
+        <h2 class="card_title">{{ t1 }}</h2>
+
+        <p class="card_text">{{ res }}...</p>
+
+        <button class="btn card_btn" href="{{ lien }}">Voir Plus</button>
+
+      </div>
+
+    </div>
+
+      `
+
+    });
 
 app.component('recette', {
       props: ['txt'],
@@ -90,7 +126,8 @@ app.component('recette', {
         }
       },
       template: `
-      {{ txt }}
+    {{ txt }}
+      
       `
     });
 
