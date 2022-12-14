@@ -34,9 +34,7 @@ Aux Savoureux on fait GOUTER AU GARROCHER PARTOUT !">
 						// start the loop
 						while ($membre->have_posts()) {
 							$membre->the_post();
-							?>
-							
-							<?php
+							?><?php
 							/* 
 							* Include the Post-Format-specific template for the content.
 							* If you want to override this in a child theme, then include a file

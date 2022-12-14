@@ -67,7 +67,7 @@ gsap.timeline()
 
 
 app.component('hero', {
-  props: ['srch', 'titre', 'date'],
+  props: ['srch', 'titre','titrev','titrec', 'date'],
   data() {
     return {
       nbr: 0
@@ -76,60 +76,35 @@ app.component('hero', {
   template: `
   <div class="bloc-hero">
       <p class="titre-hero">{{ titre }}</p>
+      <p class="titre-heroV">{{ titrev }} </p>
+      <p class="titre-heroC">{{ titrec }} </p>
       <p class="titre-date">{{ date }}</p>
-      <img :src="srch" alt="" class="hero imagerecette">
+      <img :src= "srch" alt="" class="hero">
 </div>
   `
 });
 
-app.component('carte', {
 
+
+    app.component('carte', {
       props: ['img','t1','res', 'lien' ],
-
       data() {
-
         return {
-
           nbr: 0
-
         }
-
       },
-
       template: `
-
       <div class="card">
-
       <div class="card_image"><img :src= "img" ></div>
-
       <div class="card_content">
-
         <h2 class="card_title">{{ t1 }}</h2>
-
         <p class="card_text">{{ res }}...</p>
-
-        <button class="btn card_btn" href="{{ lien }}">Voir Plus</button>
-
+        <button class="btn card_btn" :href="lien">Voir Plus</button>
       </div>
-
     </div>
-
-      `
-
-    });
-
-app.component('recette', {
-      props: ['txt'],
-      data() {
-        return {
-          nbr: 0
-        }
-      },
-      template: `
-    {{ txt }}
-      
       `
     });
+
 
 
 
@@ -145,6 +120,37 @@ app.component('description', {
       <p class="texte1">{{ txt1 }}</p>
       `
     });
+
+    
+app.component('recette', {
+      props: ['txt1', 'txt2', 'txt3','txt4','txt5','txt6', 't1' , 't2', 't3','img','lien']
+      ,
+      data() {
+        return {
+          nbr: 0
+        }
+      },
+      template: `
+      
+      <p class="texte1">{{ txt1 }}</p>
+      <p class="titre1">{{ t1 }}</p>
+      <p class="texte2">{{ txt2 }}</p>
+        <div class="bloc-preparation">
+          <p class="titre2">{{ t2 }}</p>
+          <p class="texte3">{{ txt3 }}</p>
+        </div>
+        <p class="titre3">{{ t3 }}</p>
+        <img :src="img" alt="" class="img-nouvelle-suivante">
+        <p class="texte4">{{ txt4 }}
+        </p>
+        <p class="texte5">{{ txt5 }}
+        </p>
+        <p class="texte6">{{ txt6 }}</p>
+        <a :href="lien" style="text-decoration: none"><button class="bouton-suite">LIRE LA SUITE</button></a>
+      `
+    });
+    
+
     
 
 app.mount('#app');

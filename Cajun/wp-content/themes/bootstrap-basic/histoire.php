@@ -28,6 +28,15 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
       </hero>
 <description txt1="C’est quoi ça, les Savoureux? L'histoire d'une cuisine simplifiée.">
      </description>
+	 <div class='main-equipe'>
+								<div class='equipe-wrapper'>
+									<ul class="cards">
+     									<li class="cards_item">
+											<card srch="<?php the_field('image'); ?>" t1="<?php the_field('titre'); ?>" res="<?php the_field('resume'); ?>" lien="<?php the_field('lien-nouvelle'); ?>"></card>
+										</li>
+										</ul>
+
+					</div>		
 </div>
 <p class="titre1">NOTRE HISTOIRE</p>
       <p class="texte2">C’est simple! C’est une startup d’assaisonnements biologiques et sans sucre.<br><br>
@@ -46,6 +55,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
               Cette expérience m’a amenée à être sollicitée pour collaborer avec des magazines connus ainsi qu’avec des compagnies alimentaires de renommée internationale pour développer des recettes santé.<br><br>
               En 2016 j’ai entrepris des cours au Collège des médecines douces du Québec. Je désirais additionner mes connaissances en cuisine à des connaissances académiques. Depuis, j’ai obtenu mon diplôme avec succès en Nutrithérapie et j’ai entrepris une carrière d’accompagnatrice en régime cétogène ou faible en glucides.</p>
           </div>
+		  
 		  </article>
 						<?php if (have_posts()) { ?> 
 
