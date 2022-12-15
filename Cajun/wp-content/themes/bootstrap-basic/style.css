@@ -198,18 +198,54 @@ Required WordPress CSS
 
 /*fin temoignage*/
 
-.titre-heroV {
+
+@media (max-width: 375px) {
+	.titre-hero{
+  font-size:30px;
+  }
+	.titre-heroV{
+  font-size:30px;
+  }
+	.titre-heroC{
+  font-size:30px;
+  }
+  .titre1 {
+  font-size:30px;
+  }
+	 .titre2 {
+  font-size:30px;
+  }
+	.texte1{
+  font-size:15px;
+  }
+	.texte2{
+  font-size:15px;
+  }
+	.texte3{
+  font-size:15px;
+  }
+	.texte-date{
+  font-size:15px;
+  }
+	.services-description{
+  font-size:15px;
+		text-align:center;
+  }
+}
+
+.titre-heroC {
 	position:absolute;
-  color: lightgreen;
-  font-size: 50px;
+  color: #F29800;
+  font-size: 40px;
   font-family: "Londrina Solid";
   font-weight: bold;
   z-index: 1;
 }
-.titre-heroC {
+
+.titre-heroV {
 	position:absolute;
-  color: #F29800;
-  font-size: 50px;
+  color: lightgreen;
+  font-size: 40px;
   font-family: "Londrina Solid";
   font-weight: bold;
   z-index: 1;

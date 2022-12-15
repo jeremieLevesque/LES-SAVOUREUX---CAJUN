@@ -72,7 +72,7 @@ wp_reset_query();
 			</div>
 						</div>		
 					
-<a href="http://localhost:81/Cajun/recette2/?preview_id=1133&preview_nonce=66919480f4&preview=true" style="text-decoration: none"><button class="bouton-suite">Page suivante</button></a>
+<a href="http://localhost:81/Cajun/recette2" style="text-decoration: none"><button class="bouton-suite">Page suivante</button></a>
 
 		
 </article>
