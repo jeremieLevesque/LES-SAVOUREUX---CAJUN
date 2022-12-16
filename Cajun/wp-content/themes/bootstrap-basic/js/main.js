@@ -20,49 +20,49 @@ var Swipes = new Swiper('.hero .swiper-container', {
 
 
 gsap.timeline()
-      .fromTo('.Bleu' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"25%" ,y: '-250px', duration:2 })
-      .fromTo('.Bleu' , {rotationZ:"25%"},
-            { rotationZ:"0" , y: '0', duration:2 } )
-      .fromTo('.Rouge' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"-25%" ,y: '-250px', duration:2 })
-      .fromTo('.Rouge' , {rotationZ:"-25%"},
-            { rotationZ:"0" , y: '0', duration:2 } )
-      .fromTo('.Bleu' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"-25%" ,y: '-250px', duration:2 })
-      .fromTo('.Bleu' , {rotationZ:"-25%"},
-            { rotationZ:"0" , y: '0', duration:2 } )
-       .fromTo('.Rouge' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"25%" ,y: '-250px', duration:2 })
-      .fromTo('.Rouge' , {rotationZ:"25%"},
-            { rotationZ:"0" , y: '0', duration:2 } )
-      .fromTo('.Bleu' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"25%" ,y: '-250px', duration:2 })
-      .fromTo('.Bleu' , {rotationZ:"25%"},
-            { rotationZ:"0" , y: '0', duration:2 } )
-      .fromTo('.Rouge' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"-25%" ,y: '-250px', duration:2 })
-      .fromTo('.Rouge' , {rotationZ:"-25%"},
-            { rotationZ:"0" , y: '0', duration:2 } )
+      .fromTo('.d' , {rotationZ:"0%", y: '0%'},
+            { rotationZ:"25%" ,y: '-250px', duration:1 })
+      .fromTo('.d' , {rotationZ:"25%"},
+            { rotationZ:"0" , y: '0', duration:1 } )
+      .fromTo('.g' , {rotationZ:"0%", y: '0%'},
+            { rotationZ:"-25%" ,y: '-250px', duration:1 })
+      .fromTo('.g' , {rotationZ:"-25%"},
+            { rotationZ:"0" , y: '0', duration:1 } )
+      .fromTo('.d' , {rotationZ:"0%", y: '0%'},
+            { rotationZ:"-25%" ,y: '-250px', duration:1 })
+      .fromTo('.d' , {rotationZ:"-25%"},
+            { rotationZ:"0" , y: '0', duration:1 } )
+       .fromTo('.g' , {rotationZ:"0%", y: '0%'},
+            { rotationZ:"25%" ,y: '-250px', duration:1 })
+      .fromTo('.g' , {rotationZ:"25%"},
+            { rotationZ:"0" , y: '0', duration:1 } )
+      .fromTo('.d' , {rotationZ:"0%", y: '0%'},
+            { rotationZ:"25%" ,y: '-250px', duration:1 })
+      .fromTo('.d' , {rotationZ:"25%"},
+            { rotationZ:"0" , y: '0', duration:1 } )
+      .fromTo('.g' , {rotationZ:"0%", y: '0%'},
+            { rotationZ:"-25%" ,y: '-250px', duration:1 })
+      .fromTo('.g' , {rotationZ:"-25%"},
+            { rotationZ:"0" , y: '0', duration:1 } )
     
   gsap.timeline()
-      .fromTo('.Bleu' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"5%" ,y: '-50px', duration:2 })
-      .fromTo('.Bleu' , {rotationZ:"5%", y: '-50px'},
-            { rotationZ:"0" , y: '0', duration:2 } )
-      .fromTo('.Bleu' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"-5%" ,y: '50px', duration:2 })
-      .fromTo('.Bleu' , {rotationZ:"-5%" ,y: '50px'},
-            { rotationZ:"0" , y: '0', duration:2 } )    
+      .fromTo('.d' , {rotationZ:"0%", y: '0%'},
+            { rotationZ:"5%" ,y: '-50px', duration:1 })
+      .fromTo('.d' , {rotationZ:"5%", y: '-50px'},
+            { rotationZ:"0" , y: '0', duration:1 } )
+      .fromTo('.d' , {rotationZ:"0%", y: '0%'},
+            { rotationZ:"-5%" ,y: '50px', duration:1 })
+      .fromTo('.d' , {rotationZ:"-5%" ,y: '50px'},
+            { rotationZ:"0" , y: '0', duration:1 } )    
 gsap.timeline()
-      .fromTo('.Rouge' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"5%" ,y: '-50px', duration:2 })
-      .fromTo('.Rouge' , {rotationZ:"5%", y: '-50px'},
-            { rotationZ:"0" , y: '-50px', duration:2 } )
-      .fromTo('.Rouge' , {rotationZ:"0%", y: '-50px'},
-            { rotationZ:"-5%" ,y: '-50px', duration:2 })
-      .fromTo('.Rouge' , {rotationZ:"-5%" ,y: '-50px'},
-            { rotationZ:"0" , y: '0', duration:2 } )    
+      .fromTo('.g' , {rotationZ:"0%", y: '0%'},
+            { rotationZ:"5%" ,y: '-50px', duration:1 })
+      .fromTo('.g' , {rotationZ:"5%", y: '-50px'},
+            { rotationZ:"0" , y: '-50px', duration:1 } )
+      .fromTo('.g' , {rotationZ:"0%", y: '-50px'},
+            { rotationZ:"-5%" ,y: '-50px', duration:1 })
+      .fromTo('.g' , {rotationZ:"-5%" ,y: '-50px'},
+            { rotationZ:"0" , y: '0', duration:1 } )    
 
 
 
@@ -79,7 +79,7 @@ app.component('hero', {
       <p class="titre-heroV">{{ titrev }} </p>
       <p class="titre-heroC">{{ titrec }} </p>
       <p class="titre-date">{{ date }}</p>
-      <img :src= "srch" alt="" class="hero">
+      <img :src="srch" alt="" class="hero">
 </div>
   `
 });
@@ -106,20 +106,6 @@ app.component('hero', {
     });
 
 
-
-
-app.component('description', {
-      props: ['txt1', 'txt2', 'txt3', 't1' , 't2']
-      ,
-      data() {
-        return {
-          nbr: 0
-        }
-      },
-      template: `
-      <p class="texte1">{{ txt1 }}</p>
-      `
-    });
 
     
 app.component('recette', {

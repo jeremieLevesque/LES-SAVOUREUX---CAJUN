@@ -34,7 +34,7 @@ $carte_nouvelle = new WP_Query('post_type=nouvelle&showposts=6&category_name=veg
                    
                     <div id="app">
 
-                        <hero srch="http://localhost:81/Cajun/wp-content/uploads/2022/11/personne_martine_charbonneau_pots_epices.jpg" titre="NOUVELLES">
+                        <hero srch="http://localhost:81/Cajun/wp-content/uploads/2022/11/personne_martine_charbonneau_pots_epices.jpg" titre="RECETTES">
 
                         </hero>
 
@@ -72,7 +72,7 @@ wp_reset_query();
 			</div>
 						</div>		
 					
-<a href="http://localhost:81/Cajun/recette2" style="text-decoration: none"><button class="bouton-suite">Page suivante</button></a>
+<a href="http://localhost:81/Cajun/recette2" style="text-decoration: none"><button class="bouton-suite">PAGE SUIVANTE</button></a>
 
 		
 </article>
