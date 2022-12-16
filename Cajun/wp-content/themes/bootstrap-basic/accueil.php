@@ -141,7 +141,6 @@ wp_reset_query();
                   <div class="hero__1">
                     <img src="https://thispersondoesnotexist.com/image" alt="" class="hero--image tem-img">
                       <div class="hero--bio">
-                      <h1>quelqu'un</h1>
                      <h3>Propriétaire</h3>
                       <blockquote>Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<cite>Lorem Ipsum</cite></blockquote>
                     </div>

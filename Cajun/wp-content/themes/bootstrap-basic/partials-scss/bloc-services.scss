@@ -1,3 +1,6 @@
+@use '/partials-scss/variables.scss';
+@use '/partials-scss/bloc-404.scss';
+
 .services-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

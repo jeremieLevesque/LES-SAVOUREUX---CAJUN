@@ -1,38 +1,119 @@
 
-.bloc-404{
-  width:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction:column;
-  height:100%; 
-  margin-bottom: 30vh;
-}
-
-.texte-404 {
-  font-size:40px;
   
-  text-align:center;
-  margin-top: 0%;
-  font-family: "Londrina Solid";
-}
-
-.logo-404{
-  margin-top: 10vh;
-  width:30%;
-}
-
-.quile{
-  position:absolute;
-  width:25vw;
-}
-
-.Rouge{
-  left:5%;
-}
-
-.Bleu{
- right:5%;
- transform: rotateX(180deg);
- transform: rotateY(180deg);
-}
+.bloc-404{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+	height:50vh; 
+	 background-color: #FFF1C3;
+	margin-bottom: 30vh;
+	margin-top: 30vh;
+  }
+  
+  .texte-404 {
+	font-size:40px;
+	z-index:1;
+	text-align:center;
+	font-family: "Londrina Solid";
+	margin-bottom: 30vh;
+  }
+  
+  .logo-404{
+	position:absolute;
+	  margin-top: 20vh;
+	width:30%;
+  }
+  
+  .piment{
+	position:absolute;
+	width:25vw;
+  }
+  
+  .d{
+	left:5%;
+  }
+  
+  .g{
+   right:5%;
+   transform: rotateX(180deg);
+   transform: rotateY(180deg);
+  }
+  
+  
+  
+  
+  .titre-date {
+	  position:absolute;
+	color: white;
+	font-size: 20px;
+	font-family: "Londrina Solid";
+	font-weight: bold;
+	  margin-top:20vh;
+	z-index: 1;
+  }
+  
+  @media (max-width: 375px) {
+	  .titre-hero{
+	font-size:20px !important;
+	}
+	  .titre-heroV{
+	font-size:20px !important;
+	}
+	  .titre-heroC{
+	font-size:20px !important;
+	}
+	.titre1 {
+	font-size:20px !important;
+	}
+	   .titre2 {
+	font-size:20px !important;
+	}
+	  .texte1{
+	font-size:15px !important;
+	}
+	  .texte2{
+	font-size:15px !important;
+	}
+	  .texte3{
+	font-size:15px !important;
+	}
+	  .texte-date{
+	font-size:15px !important;
+	}
+	  .services-description{
+	font-size:15px;
+		  text-align:center;
+	}
+	  .logo-404{
+	position:absolute;
+	  margin-top: 0 !important;
+	width:30%;
+  }
+  }
+  @media (max-width: 768px) {
+	  .logo-404{
+	position:absolute;
+	  margin-top: 0 !important;
+	width:30%;
+  }
+	  .texte-404 {
+	font-size:20px !important; 
+	z-index:1;
+	text-align:center;
+	font-family: "Londrina Solid";
+	margin-bottom: 30vh;
+  }
+	  .bloc-404{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+	height:50vh; 
+	 background-color: #FFF1C3;
+	margin-bottom: 0vh !important;
+	margin-top: 30vh;
+  }
+  }
