@@ -663,6 +663,15 @@ body {
 	color: white;
 	padding: 20px;
   }
+  .entête1 {
+	text-align: center;
+	background-size: cover;
+	
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	padding: 20px;
+  }
   /*entête fin*/
   
   /*grid*/

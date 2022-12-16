@@ -37,7 +37,7 @@ $carte_nouvelle = new WP_Query('post_type=nouvelle&showposts=3');
     
     <!-- swiper slides -->
     <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background-image: url(http://localhost:81/Cajun/wp-content/uploads/2022/12/banniere_rouge_sans_logo.jpg);">
+        <div class="swiper-slide" style="background-image: url(http://localhost:81/Cajun/wp-content/uploads/2022/12/MicrosoftTeams-image-13.jpg);">
             <h2>Saveurs uniques</h2>
         </div>
         
@@ -64,7 +64,7 @@ $carte_nouvelle = new WP_Query('post_type=nouvelle&showposts=3');
 </div>
 </div>
    <div class="entête">
-    <h1 class="display-4 font-weight-bold">Nouvelles</h1>
+    <h1 class="display-4 font-weight-bold">Services</h1>
 </div>
     
   
@@ -99,7 +99,9 @@ $carte_nouvelle = new WP_Query('post_type=nouvelle&showposts=3');
 						</div>
 						</div>
 </section>
-
+<div class="entête1">
+    <h1 class="display-4 font-weight-bold">Recettes</h1>
+</div>
   <section class="Nouvelles">
   <div class="main-services">
 					<div class="services-wrapper"> 

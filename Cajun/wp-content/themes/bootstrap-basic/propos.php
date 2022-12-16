@@ -22,7 +22,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
       </style>        
 
 <div id="app">
-      <hero srch="http://localhost:81/Cajun/wp-content/uploads/2022/11/banniere_rouge_logo.jpg" titre="À PROPOS">
+      <hero srch="http://localhost:81/Cajun/wp-content/uploads/2022/12/MicrosoftTeams-image-13.jpg" titre="À PROPOS">
       </hero>
 <description txt1="Nos saveurs sont à la fois uniques et accessibles, comme nous!">
      </description>

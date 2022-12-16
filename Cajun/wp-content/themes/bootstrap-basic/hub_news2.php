@@ -34,7 +34,7 @@ $carte_nouvelle = new WP_Query('post_type=nouvelle&showposts=6&category_name=via
                    
                     <div id="app">
 
-                        <hero srch="http://localhost:81/Cajun/wp-content/uploads/2022/11/personne_martine_charbonneau_pots_epices.jpg" titre="RECETTES">
+                        <hero srch="http://localhost:81/Cajun/wp-content/uploads/2022/11/recette_nacho.jpg" titre="RECETTES">
 
                         </hero>
 
