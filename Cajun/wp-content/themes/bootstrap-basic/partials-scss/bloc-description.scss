@@ -1,8 +1,11 @@
+@use '/partials-scss/variables.scss';
+
+
 .texte1, .texte2, .texte3, .texte4, .texte5, .texte6 {
   position: relative;
   display: flex;
   color: #707070;
-  font-size: 18px;
+  font-size: $texte-size;
   font-family: Corbel;
   padding-left: 20px;
   padding-top: 20px;
@@ -17,12 +20,12 @@
 
 .texte2 {
   padding-bottom: 60px;
-  background-color: #F29800;
+  background-color: $b-color;
 }
 
 
 .texte3 {
   font-size: 20px;
   color: #333;
-  font-family: 'Zulpiya';
+  font-family: $txt-fam;
 }

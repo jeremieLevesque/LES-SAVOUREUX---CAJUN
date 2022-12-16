@@ -1,33 +1,43 @@
-.bloc-hero {
-  display:flex;
-  align-items:center;
-      justify-content:center;
-  }
-  .titre-hero {
-      position:absolute;
-    color: white;
-    font-size: 50px;
-    font-family: "Londrina Solid";
-    font-weight: bold;
-    z-index: 1;
-  }
-  .hero {
+@use '/partials-scss/variables.scss';
 
-    filter: brightness(50%);
-    margin: auto;
-    height: auto;
-    max-height: 960px;
-    width: 100%;
-    background-repeat: no-repeat;
-    -o-object-fit: cover;
-       object-fit: cover;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: -webkit-sticky;
-    position: sticky;
-    z-index: 0;
-  }
-  
+
+
+/*bloc-hero*/
+.bloc-hero {
+	display:flex;
+  align-items:center;
+	justify-content:center;
+}
+
+      .titre-hero {
+          position:absolute;
+      color: white;
+      font-size: 50px;
+      font-family: "Londrina Solid";
+      font-weight: bold;
+      z-index: 1;
+      }
+          .hero {
+          filter: brightness(50%);
+          margin: auto;
+          height: auto;
+          max-height: 960px;
+          width: 100%;
+          background-repeat: no-repeat;
+          -o-object-fit: cover;
+              object-fit: cover;
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: -webkit-sticky;
+          position: sticky;
+          z-index: 0;
+          }
+
+          .titre1{
+              color:$titre-1;
+          }
+        
+/*bloc hero fin*/
   

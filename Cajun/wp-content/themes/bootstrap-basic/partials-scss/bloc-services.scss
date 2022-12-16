@@ -1,6 +1,4 @@
-@use '/partials-scss/variables.scss';
-@use '/partials-scss/bloc-404.scss';
-
+/*hub_service*/
 .services-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -8,74 +6,94 @@
   justify-items: center;
 }
 
-@media (max-width:768px) {
-  .services-wrapper {
-    grid-template-columns: 1fr 1fr;
+  @media (max-width:768px) {
+      .services-wrapper {
+      grid-template-columns: 1fr 1fr;
+      }
   }
-}
-
-@media (max-width:450px) {
-  .services-wrapper {
-    grid-template-columns: 1fr;
-  }
-}
-
-.services-cartes {
-  display: flex;
-  flex-direction: column;
-  padding: 50px;
-  border-radius: 50px;
-}
-
-.services-cartes:hover {
-  background-color: #F29800;;
-  transition: 0.8s;
-  cursor: pointer;
-}
-
-.services-titre {
-  color: #707070;
-  font-size: 90px;
-  font-family: "Londrina Solid";
-  font-weight: bold;
-  text-align: center;
-  grid-column: span 3;
-  margin: 30px;
-}
-
-@media (max-width:375px) {
-  .services-titre {
-    font-size: 50px;
-  }
-}
-
-.services-intertitre {
-  color: #707070;
-  font-size: 50px;
-  font-family: Zulpiya;
-  text-align: center;
-}
-
-@media (max-width:375px) {
-  .services-intertitre {
-    font-size: 23px;
-  }
-}
-
-.services-description {
-  color: #707070;
-  font-size: 22px;
-  font-family: Corbel;
-  width: 100%;
-}
-
-@media (max-width:375px) {
-  .services-description {
-    font-size: 18px;
-  }
-}
-
-.service1, .service2, .service3 {
-  border-radius: 40px;
-  width: 100%;
-}
+  
+      @media (max-width:450px) {
+          .services-wrapper {
+          grid-template-columns: 1fr;
+          }
+      }
+      
+          .services-cartes {
+              display: flex;
+              flex-direction: column;
+              padding: 50px;
+              border-radius: 50px;
+              transition: 0.7s;
+              margin:10px;
+                  :hover {
+                      background-color: #F29800;;
+                      cursor: pointer;
+                  }
+          }
+          
+             
+              
+                  .services-titre {
+                      color: #707070;
+                      font-size: 90px;
+                      font-family: "Londrina Solid";
+                      font-weight: bold;
+                      text-align: center;
+                      grid-column: span 3;
+                      margin: 30px;
+                  }
+                  
+                      @media (max-width:375px) {
+                          .services-titre {
+                          font-size: 50px;
+                          }
+                      }
+                      
+                          .services-intertitre {
+                              color: #707070;
+                              font-size: 30px;
+                              font-family: Zulpiya;
+                              text-align: center;
+                          }
+                          
+                              @media (max-width:375px) {
+                                  .services-intertitre {
+                                  font-size: 23px;
+                                  }
+                              }
+                              
+                                  .services-description {
+                                      color: #707070;
+                                      font-family: Corbel;
+                                      width: 100%;
+                                      font-size:18px;
+                                          text-align:center;
+                                      
+                                  }
+                                  
+                                      @media (max-width:375px) {
+                                          .services-description {
+                                          font-size: 18px;
+                                          }
+                                      }
+                                      
+                                          @media (max-width:375px) {
+                                              .tem-img {
+                                              width:100%;
+                                                  display:block;
+                                              }
+                                          }
+                                          
+                                              .tem-img {
+                                                  width:100%;
+                                                      height:80%;
+                                                  }
+                                              
+                                                  .service1, .service2, .service3 {
+                                                      border-radius: 40px;
+                                                      width: 100%;
+                                                  }
+                                              
+                                                  
+                                                  .bloc-preparation{background:white!important;}
+/*hub_service fin*/

@@ -21,27 +21,27 @@ var Swipes = new Swiper('.hero .swiper-container', {
 
 gsap.timeline()
       .fromTo('.d' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"25%" ,y: '-250px', duration:1 })
+            { rotationZ:"25%" ,y: '-200px', duration:1 })
       .fromTo('.d' , {rotationZ:"25%"},
             { rotationZ:"0" , y: '0', duration:1 } )
       .fromTo('.g' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"-25%" ,y: '-250px', duration:1 })
+            { rotationZ:"-25%" ,y: '-200px', duration:1 })
       .fromTo('.g' , {rotationZ:"-25%"},
             { rotationZ:"0" , y: '0', duration:1 } )
       .fromTo('.d' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"-25%" ,y: '-250px', duration:1 })
+            { rotationZ:"-25%" ,y: '-200px', duration:1 })
       .fromTo('.d' , {rotationZ:"-25%"},
             { rotationZ:"0" , y: '0', duration:1 } )
        .fromTo('.g' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"25%" ,y: '-250px', duration:1 })
+            { rotationZ:"25%" ,y: '-200px', duration:1 })
       .fromTo('.g' , {rotationZ:"25%"},
             { rotationZ:"0" , y: '0', duration:1 } )
       .fromTo('.d' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"25%" ,y: '-250px', duration:1 })
+            { rotationZ:"25%" ,y: '-200px', duration:1 })
       .fromTo('.d' , {rotationZ:"25%"},
             { rotationZ:"0" , y: '0', duration:1 } )
       .fromTo('.g' , {rotationZ:"0%", y: '0%'},
-            { rotationZ:"-25%" ,y: '-250px', duration:1 })
+            { rotationZ:"-25%" ,y: '-200px', duration:1 })
       .fromTo('.g' , {rotationZ:"-25%"},
             { rotationZ:"0" , y: '0', duration:1 } )
     

@@ -1,180 +1,73 @@
-
-.texte1, .texte4, .texte5, .texte6 {
-  position: relative;
-  display: flex;
-  color: #707070;
-  font-size: 20px;
-  font-family: Corbel;
-  padding-left: 20px;
-  padding-top: 20px;
-}
-
-.texte1 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.titre3 {
-  display: flex;
-  justify-content: center;
-  color: #707070;
-  font-size: 30px;
-  font-family: Zulpiya;
-  padding-left: 20px;
-  padding-top: 90px;
-}
-
-.img-nouvelle-suivante {
-  display: flex;
-  border-color: white;
-  border-radius: 30px;
-  border-width: 5px;
-  border-style: solid;
-  margin: auto;
-  width: 50%;
-  max-width: 300px;
-}
-
-.texte5 {
-  opacity: 50%;
-}
-
-.texte6 {
-  opacity: 25%;
-}
-
-.bouton-suite {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  margin-bottom: 20px;
-  width: 200px;
-  background-color: #D04C00;
-  color: white;
-  border-color: white;
-  border-radius: 30px;
-  border-width: 5px;
-  border-style: solid;
-  font-size: 30px;
-  font-family: "Londrina Solid";
-  font-weight: bold;
-  padding: 10px;
-  transition: 0.3s;
-}
-
-.bouton-suite:hover {
-  background-color: #740000;
-  color: #F29800;
-  border-color: #4E2200;
-}
-
-
-
-/************ BLOC SERVICES ************/
-.services-wrapper {
+@use '/partials-scss/variables.scss';
+/*hub-nouvelle*/
+.nouvelle-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
 }
 
-@media (max-width:768px) {
-  .services-wrapper {
-    grid-template-columns: 1fr 1fr;
+  @media (max-width: 800px) {
+      .nouvelle-wrapper {
+      grid-template-columns: 1fr!important;
+      }
   }
-}
-
-@media (max-width:450px) {
-  .services-wrapper {
-    grid-template-columns: 1fr;
-  }
-}
-
-.services-cartes {
-  display: flex;
-  flex-direction: column;
-  padding: 50px;
-  border-radius: 50px;
-  transition: 0.7s;
-}
-
-.services-cartes:hover {
-  background-color: #F29800;;
-  cursor: pointer;
-}
-
-.services-titre {
-  color: #707070;
-  font-size: 90px;
-  font-family: "Londrina Solid";
-  font-weight: bold;
-  text-align: center;
-  grid-column: span 3;
-  margin: 30px;
-}
-
-@media (max-width:375px) {
-  .services-titre {
-    font-size: 50px;
-  }
-}
-
-.services-intertitre {
-  color: #707070;
-  font-size: 50px;
-  font-family: Zulpiya;
-  text-align: center;
-}
-
-@media (max-width:375px) {
-  .services-intertitre {
-    font-size: 23px;
-  }
-}
-
-.services-description {
-  color: #707070;
-  font-size: 22px;
-  font-family: Corbel;
-  width: 100%;
-}
-
-@media (max-width:375px) {
-  .services-description {
-    font-size: 18px;
-  }
-}
-
-
-
-
-
-.services-cartes1 {
-  background-color: #FFE07B;
-}
-
-.services-intertitre1 {
-  color: #D04C00;
-}
-
-.services-description1 {
-  color: #D04C00;
-}
-
-.nouvelle1, .nouvelle2, .nouvelle3, .nouvelle4, .nouvelle5, .nouvelle6 {
-  border-radius: 40px;
-  width: 100%;
-}
-
-/*Menu déroulant*/
-select{
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: #707070;
-  background-color: #FFE07B;
-  margin-left: 20px;
-}
-
-select:focus{
-  outline-color: #D04C00;
-}
+  .nouvelle-cartes {
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+      border-radius: 50px;
+      align-items: center;
+      transition: 0.7s;
+          :hover{ background-color: #F29800;
+              cursor: pointer; }
+    }
+      .nouvelle-intertitre {
+          color: #707070;
+          font-size: 50px;
+          font-family: Zulpiya;
+          text-align: center;
+      }
+      
+          @media (max-width: 375px) {
+              .nouvelle-intertitre {
+              font-size: 23px;
+              }
+          }
+          
+              .nouvelle-description {
+                  color: #707070;
+                  font-size: 22px;
+                  font-family: Corbel;
+                  width: 100%;
+                  text-align: center;
+              }
+              
+                  @media (max-width: 375px) {
+                      .nouvelle-description {
+                      font-size: 18px;
+                      }
+                  }
+                      .nouvelle1, .nouvelle2, .nouvelle3 {
+                          border-radius: 40px;
+                          width: 100%;
+                      }
+                      
+                          .nouvelle-equipe-bio {
+                              width: 100%;
+                              margin-top: 20px;
+                              font-family: Zulpiya;
+                              font-size: 30px;
+                              color: white;
+                              border-radius: 25px;
+                              border: none;
+                              background-color: #D04C00;
+                              grid-column: span 2;
+                              white-space: nowrap;
+                              cursor: pointer;
+                              align-items:center;
+                          }
+                          .titre2{
+                            color:$titre-2;
+                        }
+/*hub-nouvelle fin*/
