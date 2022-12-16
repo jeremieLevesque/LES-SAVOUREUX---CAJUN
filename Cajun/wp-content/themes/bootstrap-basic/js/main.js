@@ -107,6 +107,20 @@ app.component('hero', {
 
 
 
+
+app.component('description', {
+      props: ['txt1',]
+      ,
+      data() {
+        return {
+          nbr: 0
+        }
+      },
+      template: `
+      <p class="texte1">{{ txt1 }}</p>
+      `
+    });
+
     
 app.component('recette', {
       props: ['txt1', 'txt2', 'txt3','txt4','txt5','txt6', 't1' , 't2', 't3','img','lien']
